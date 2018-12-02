@@ -11,7 +11,7 @@ import os,sys,csv
 
 
 #Sets Path for CSV file.
-Budget = 'C:/Users/Thinh/Desktop/Data_Science_Assignment/python-challenge/budget_data.csv'
+Budget = 'C:/Users/Thinh/Desktop/Data_Science_Assignment/python-challenge/PyBank/budget_data.csv'
 
 
 # In[22]:
@@ -79,7 +79,7 @@ Greatest Decrease in Profits: {Total_Months[MinCIndex+1]} (${int(min(Changes))})
 
 # In[ ]:
 
-
+# Opens a text file and writes the data summary to the file.
 with open(os.path.join(sys.path[0],'BudgetSummary.txt'),'w') as TextFile:
 
     TextFile.write(f"""
